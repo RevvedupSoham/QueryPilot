@@ -60,7 +60,7 @@ Formatted Result
 - Separation between LLM generation and database execution
 - Environment-based configuration for database credentials and API keys
 
-## Planned Project Structure
+## Project Structure
 
 ```text
 QueryPilot/
@@ -199,7 +199,7 @@ QueryPilot is intended to demonstrate practical understanding of:
 
 ## Status
 
-**Initial setup / implementation in progress.**
+**MySQL implementation added. End-to-end local testing requires a configured MySQL instance and Groq API key.**
 
 ## Author
 
