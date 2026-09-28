@@ -1,6 +1,11 @@
 import re
 
-BLOCKED_KEYWORDS = {"INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "CREATE", "TRUNCATE", "REPLACE", "GRANT", "REVOKE", "EXEC", "EXECUTE", "CALL", "SET", "USE", "SHOW", "DESCRIBE", "DESC", "LOAD", "OUTFILE", "DUMPFILE"}
+BLOCKED_KEYWORDS = {
+    "INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "CREATE",
+    "TRUNCATE", "REPLACE", "GRANT", "REVOKE", "EXEC", "EXECUTE",
+    "CALL", "SET", "USE", "SHOW", "DESCRIBE", "LOAD",
+    "OUTFILE", "DUMPFILE"
+}
 
 def validate_sql(sql):
     cleaned = sql.strip()
